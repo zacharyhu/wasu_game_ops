@@ -1,0 +1,1632 @@
+2013/05/16 15:02:00 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.(权限不足)' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpBaseInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpBaseInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpBaseInfo&view=index
+---
+2013/05/16 15:04:47 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.(权限不足)' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpBaseInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpBaseInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpBaseInfo&view=index
+---
+2013/05/16 15:16:11 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '供应商' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `ops_auth_items` (`name`, `type`, `description`, `bizrule`, `data`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4).
+in D:\workshop\wasu_game_ops\protected\modules\srbac\controllers\AuthitemController.php (355)
+in D:\workshop\wasu_game_ops\index.php (13)
+2013/05/16 15:22:32 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.(权限不足)' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpBaseInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpBaseInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpBaseInfo&view=index
+---
+2013/05/16 15:22:33 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.(权限不足)' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpBaseInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpBaseInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpBaseInfo/admin
+---
+2013/05/16 15:22:52 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.(权限不足)' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpBaseInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpBaseInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpBaseInfo&view=index
+---
+2013/05/16 15:22:53 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.(权限不足)' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpBaseInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpBaseInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpBaseInfo/admin
+---
+2013/05/16 15:23:43 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.(权限不足)' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpContactInfo/a...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpContactInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpBaseInfo&view=index
+---
+2013/05/16 15:23:43 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.(权限不足)' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpContactInfo/a...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpContactInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpContactInfo/admin
+---
+2013/05/16 15:23:56 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.(权限不足)' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpBaseInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpBaseInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpBaseInfo&view=index
+---
+2013/05/16 15:23:57 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.(权限不足)' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpBaseInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpBaseInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpBaseInfo/admin
+---
+2013/05/16 15:24:44 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.(权限不足)' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpGameInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpGameInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpBaseInfo&view=index
+---
+2013/05/16 15:24:44 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.(权限不足)' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpGameInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpGameInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpGameInfo/admin
+---
+2013/05/16 15:24:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sbrac".' in D:\workshop\wasu_game_ops\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('sbrac')
+#1 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=sbrac
+---
+2013/05/16 15:24:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sbrac".' in D:\workshop\wasu_game_ops\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('sbrac')
+#1 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=sbrac
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=sbrac
+---
+2013/05/16 15:26:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "manage".' in D:\workshop\wasu_game_ops\framework\web\CController.php:483
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\CController.php(270): CController->missingAction('manage')
+#1 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('manage')
+#2 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('OpsUser/manage')
+#3 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=OpsUser/manage
+---
+2013/05/16 15:26:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "manage".' in D:\workshop\wasu_game_ops\framework\web\CController.php:483
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\CController.php(270): CController->missingAction('manage')
+#1 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('manage')
+#2 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('OpsUser/manage')
+#3 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=OpsUser/manage
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=OpsUser/manage
+---
+2013/05/16 15:26:31 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.(权限不足)' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('OpsUser/admin')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=OpsUser/admin
+---
+2013/05/16 15:26:31 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.(权限不足)' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('OpsUser/admin')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=OpsUser/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=OpsUser/admin
+---
+2013/05/16 15:27:34 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.(权限不足)' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('OpsUser/admin')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=OpsUser/admin
+---
+2013/05/16 15:27:35 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.(权限不足)' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('OpsUser/admin')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=OpsUser/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=OpsUser/admin
+---
+2013/05/16 15:29:47 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user_name' in 'where clause'. The SQL statement executed was: SELECT * FROM `ops_user` `t` WHERE LOWER(user_name)=? LIMIT 1.
+in D:\workshop\wasu_game_ops\protected\components\UserIdentity.php (25)
+in D:\workshop\wasu_game_ops\protected\models\LoginForm.php (52)
+in D:\workshop\wasu_game_ops\protected\controllers\SiteController.php (94)
+2013/05/16 15:29:47 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user_name' in 'where clause'. The SQL statement executed was: SELECT * FROM `ops_user` `t` WHERE LOWER(user_name)=? LIMIT 1' in D:\workshop\wasu_game_ops\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\db\CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 D:\workshop\wasu_game_ops\framework\db\ar\CActiveRecord.php(1331): CDbCommand->queryRow()
+#2 D:\workshop\wasu_game_ops\framework\db\ar\CActiveRecord.php(1436): CActiveRecord->query(Object(CDbCriteria))
+#3 D:\workshop\wasu_game_ops\protected\components\UserIdentity.php(25): CActiveRecord->find('LOWER(user_name...', Array)
+#4 D:\workshop\wasu_game_ops\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#5 D:\workshop\wasu_game_ops\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#6 D:\workshop\wasu_game_ops\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#7 D:\workshop\wasu_game_ops\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#8 D:\workshop\wasu_game_ops\protected\controllers\SiteController.php(94): CModel->validate()
+#9 D:\workshop\wasu_game_ops\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#10 D:\workshop\wasu_game_ops\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 D:\workshop\wasu_game_ops\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('login')
+#14 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#15 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#16 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=site/login
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=site/login
+---
+2013/05/16 15:31:27 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.(权限不足)' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpBaseInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpBaseInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpBaseInfo&view=index
+---
+2013/05/16 15:31:27 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.(权限不足)' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpBaseInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpBaseInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpBaseInfo/admin
+---
+2013/05/16 15:32:03 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.(权限不足)' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpBaseInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpBaseInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpBaseInfo/view&id=1
+---
+2013/05/16 15:32:03 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.(权限不足)' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpBaseInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpBaseInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpBaseInfo/admin
+---
+2013/05/16 15:35:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sbrac".' in D:\workshop\wasu_game_ops\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('sbrac')
+#1 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=sbrac
+---
+2013/05/16 15:35:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sbrac".' in D:\workshop\wasu_game_ops\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('sbrac')
+#1 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=sbrac
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=sbrac
+---
+2013/05/16 15:40:06 [error] [php] Trying to get property of non-object (D:\workshop\wasu_game_ops\protected\modules\srbac\controllers\AuthitemController.php:633)
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\CController.php(286): AuthitemController->runAction()
+#1 D:\workshop\wasu_game_ops\framework\web\CController.php(265): AuthitemController->runActionWithFilters()
+#2 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): AuthitemController->run()
+#3 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 D:\workshop\wasu_game_ops\index.php(13): CWebApplication->run()
+REQUEST_URI=/wasu_game_ops/index.php?r=srbac/authitem/showAssignments
+in D:\workshop\wasu_game_ops\protected\modules\srbac\controllers\AuthitemController.php (633)
+in D:\workshop\wasu_game_ops\index.php (13)
+2013/05/16 15:54:49 [error] [php] Trying to get property of non-object (D:\workshop\wasu_game_ops\protected\modules\srbac\controllers\AuthitemController.php:633)
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\CController.php(286): AuthitemController->runAction()
+#1 D:\workshop\wasu_game_ops\framework\web\CController.php(265): AuthitemController->runActionWithFilters()
+#2 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): AuthitemController->run()
+#3 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 D:\workshop\wasu_game_ops\index.php(13): CWebApplication->run()
+REQUEST_URI=/wasu_game_ops/index.php?r=srbac/authitem/showAssignments
+in D:\workshop\wasu_game_ops\protected\modules\srbac\controllers\AuthitemController.php (633)
+in D:\workshop\wasu_game_ops\index.php (13)
+2013/05/16 16:09:55 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.(权限不足)' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpBaseInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpBaseInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpBaseInfo&view=index
+---
+2013/05/16 16:09:56 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.(权限不足)' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpBaseInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpBaseInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpBaseInfo/admin
+---
+2013/05/16 16:10:42 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.(权限不足)' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpContactInfo/a...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpContactInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpBaseInfo&view=index
+---
+2013/05/16 16:10:42 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.(权限不足)' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpContactInfo/a...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpContactInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpContactInfo/admin
+---
+2013/05/16 16:29:17 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.(权限不足)' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpBaseInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpBaseInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpBaseInfo&view=index
+---
+2013/05/16 16:29:18 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.(权限不足)' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpBaseInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpBaseInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpBaseInfo/admin
+---
+2013/05/16 16:29:20 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.(权限不足)' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpBaseInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpBaseInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpBaseInfo&view=index
+---
+2013/05/16 16:29:21 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.(权限不足)' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpBaseInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpBaseInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpBaseInfo/admin
+---
+2013/05/16 16:29:34 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.(权限不足)' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpBaseInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpBaseInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpBaseInfo&view=index
+---
+2013/05/16 16:29:35 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.(权限不足)' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpBaseInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpBaseInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpBaseInfo/admin
+---
+2013/05/16 16:30:56 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.(权限不足)' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpBaseInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpBaseInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpBaseInfo&view=index
+---
+2013/05/16 16:30:57 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.(权限不足)' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpBaseInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpBaseInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpBaseInfo/admin
+---
+2013/05/16 16:30:59 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.(权限不足)' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpBaseInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpBaseInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpBaseInfo&view=index
+---
+2013/05/16 16:31:00 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.(权限不足)' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpBaseInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpBaseInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpBaseInfo/admin
+---
+2013/05/16 16:31:37 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.(权限不足)' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpBaseInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpBaseInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpBaseInfo&view=index
+---
+2013/05/16 16:31:37 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.(权限不足)' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpBaseInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpBaseInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpBaseInfo/admin
+---
+2013/05/16 16:35:34 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.(权限不足)' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpBaseInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpBaseInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpBaseInfo&view=index
+---
+2013/05/16 16:35:35 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.(权限不足)' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpBaseInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpBaseInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpBaseInfo/admin
+---
+2013/05/16 16:41:27 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), '???????????????...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpBaseInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpBaseInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpBaseInfo&view=index
+---
+2013/05/16 16:41:27 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), '???????????????...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpBaseInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpBaseInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpBaseInfo/admin
+---
+2013/05/16 16:41:34 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), '???????????????...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpBaseInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpBaseInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpBaseInfo&view=index
+---
+2013/05/16 16:41:34 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), '???????????????...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpBaseInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpBaseInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpBaseInfo/admin
+---
+2013/05/16 16:43:23 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), '???????????????...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpBaseInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpBaseInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpBaseInfo&view=index
+---
+2013/05/16 16:43:23 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), '???????????????...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpBaseInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpBaseInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpBaseInfo/admin
+---
+2013/05/16 16:43:33 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), '???????????????...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpGameInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpGameInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpGameInfo/view&id=3
+---
+2013/05/16 16:43:33 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), '???????????????...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpGameInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpGameInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpGameInfo/admin
+---
+2013/05/16 16:44:59 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), '???????????????...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpBaseInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpBaseInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpBaseInfo&view=index
+---
+2013/05/16 16:44:59 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), '???????????????...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpBaseInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpBaseInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpBaseInfo/admin
+---
+2013/05/16 16:48:52 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), '???????????????...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpBaseInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpBaseInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpBaseInfo/create
+---
+2013/05/16 16:48:53 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), '???????????????...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpBaseInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpBaseInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpBaseInfo/admin
+---
+2013/05/16 16:48:56 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), '???????????????...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpBaseInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpBaseInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpBaseInfo&view=index
+---
+2013/05/16 16:48:56 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), '???????????????...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpBaseInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpBaseInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpBaseInfo/admin
+---
+2013/05/16 16:49:01 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), '???????????????...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpBaseInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpBaseInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpBaseInfo/create
+---
+2013/05/16 16:49:01 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), '???????????????...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpBaseInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpBaseInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpBaseInfo/admin
+---
+2013/05/16 16:49:03 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), '???????????????...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpBaseInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpBaseInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpBaseInfo&view=index
+---
+2013/05/16 16:49:04 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), '???????????????...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpBaseInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpBaseInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpBaseInfo/admin
+---
+2013/05/16 16:49:11 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), '???????????????...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpBaseInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpBaseInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpBaseInfo&view=index
+---
+2013/05/16 16:49:12 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), '???????????????...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpBaseInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpBaseInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpBaseInfo/admin
+---
+2013/05/16 16:50:58 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), '???????????????...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpContactInfo/a...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpContactInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpContactInfo/index
+---
+2013/05/16 16:50:58 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), '???????????????...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpContactInfo/a...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpContactInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpContactInfo/admin
+---
+2013/05/16 16:51:03 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), '???????????????...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpContactInfo/a...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpContactInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpContactInfo/index
+---
+2013/05/16 16:51:03 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), '???????????????...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpContactInfo/a...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpContactInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpContactInfo/admin
+---
+2013/05/16 16:51:48 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), '???????????????...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('Admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpContactInfo/A...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpContactInfo/Admin
+---
+2013/05/16 16:51:48 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), '???????????????...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('Admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpContactInfo/A...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpContactInfo/Admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpContactInfo/Admin
+---
+2013/05/16 16:51:57 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), '???????????????...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpContactInfo/a...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpContactInfo/admin
+---
+2013/05/16 16:51:57 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), '???????????????...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpContactInfo/a...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpContactInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpContactInfo/admin
+---
+2013/05/16 16:52:02 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), '???????????????...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('Admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpContactInfo/A...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpContactInfo/Admin
+---
+2013/05/16 16:52:02 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), '???????????????...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('Admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpContactInfo/A...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpContactInfo/Admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpContactInfo/Admin
+---
+2013/05/16 16:52:12 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), '???????????????...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpContactInfo/a...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpContactInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpContactInfo/create
+---
+2013/05/16 16:52:12 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), '???????????????...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpContactInfo/a...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpContactInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpContactInfo/admin
+---
+2013/05/16 16:55:39 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), '???????????????...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpBaseInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpBaseInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpBaseInfo&view=index
+---
+2013/05/16 16:55:39 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), '???????????????...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpBaseInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpBaseInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpBaseInfo/admin
+---
+2013/05/16 16:56:48 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), '???????????????...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpBaseInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpBaseInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpBaseInfo&view=index
+---
+2013/05/16 16:56:49 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), '???????????????...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpBaseInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpBaseInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpBaseInfo/admin
+---
+2013/05/16 16:57:32 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), '???????????????...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpBaseInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpBaseInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpBaseInfo&view=index
+---
+2013/05/16 16:57:33 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), '???????????????...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpBaseInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpBaseInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpBaseInfo/admin
+---
+2013/05/16 16:57:34 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), '???????????????...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpBaseInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpBaseInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpBaseInfo&view=index
+---
+2013/05/16 16:57:34 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), '???????????????...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpBaseInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpBaseInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpBaseInfo/admin
+---
+2013/05/16 16:57:34 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), '???????????????...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpBaseInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpBaseInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpBaseInfo&view=index
+---
+2013/05/16 16:57:35 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), '???????????????...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpBaseInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpBaseInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpBaseInfo/admin
+---
+2013/05/16 16:57:35 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), '???????????????...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpBaseInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpBaseInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpBaseInfo&view=index
+---
+2013/05/16 16:57:36 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), '???????????????...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpBaseInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpBaseInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpBaseInfo/admin
+---
+2013/05/16 16:57:59 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), '???????????????...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpBaseInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpBaseInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpBaseInfo&view=index
+---
+2013/05/16 16:57:59 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), '???????????????...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpBaseInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpBaseInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpBaseInfo/admin
+---
+2013/05/16 16:58:00 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), '???????????????...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpBaseInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpBaseInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpBaseInfo&view=index
+---
+2013/05/16 16:58:00 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), '???????????????...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpBaseInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpBaseInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpBaseInfo/admin
+---
+2013/05/16 17:02:17 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), '???????????????...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpBaseInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpBaseInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpBaseInfo&view=index
+---
+2013/05/16 17:02:17 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), '???????????????...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpBaseInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpBaseInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpBaseInfo/admin
+---
+2013/05/16 17:46:29 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), '???????????????...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpGameInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpGameInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpContactInfo/index
+---
+2013/05/16 17:46:29 [error] [exception.CHttpException.403] exception 'CHttpException' with message '您未被授权执行这个动作' in D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php:179
+Stack trace:
+#0 D:\workshop\wasu_game_ops\framework\web\auth\CAccessControlFilter.php(142): CAccessControlFilter->accessDenied(Object(CWebUser), '???????????????...')
+#1 D:\workshop\wasu_game_ops\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\workshop\wasu_game_ops\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 D:\workshop\wasu_game_ops\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\workshop\wasu_game_ops\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\workshop\wasu_game_ops\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\workshop\wasu_game_ops\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\workshop\wasu_game_ops\framework\web\CWebApplication.php(141): CWebApplication->runController('CpGameInfo/admi...')
+#9 D:\workshop\wasu_game_ops\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 D:\workshop\wasu_game_ops\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/wasu_game_ops/index.php?r=CpGameInfo/admin
+HTTP_REFERER=http://localhost/wasu_game_ops/index.php?r=CpGameInfo/admin
+---
