@@ -37,7 +37,7 @@ foreach (explode(',',$model->game_lobby) as $lobbyid){
 	'attributes'=>array(
 		//'id',
 		//'cp_id',
-        array('label'=>'厂商','type'=>'raw','value'=>CHtml::link(CHtml::encode($model->cpName->cp_name),array('cpContactInfo/update','id'=>$model->cp_id))),
+        array('label'=>'厂商','type'=>'raw','value'=>CHtml::link(CHtml::encode($model->cpName->cp_name),array('cpBaseInfo/View','id'=>$model->cp_id))),
 		'game_name',
 		'game_id',
 		'game_cp_code',

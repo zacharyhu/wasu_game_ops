@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- 主机: localhost:3306
--- 生成日期: 2013 年 05 月 16 日 17:48
+-- 生成日期: 2013 年 05 月 24 日 12:48
 -- 服务器版本: 5.5.27
 -- PHP 版本: 5.4.7
 
@@ -115,13 +115,21 @@ INSERT INTO `cp_game_info` (`id`, `cp_id`, `game_name`, `game_id`, `game_cp_code
 
 CREATE TABLE IF NOT EXISTS `cp_operation_logs` (
   `arch_id` int(10) NOT NULL AUTO_INCREMENT COMMENT '记录ID',
-  `arch_title` varchar(60) NOT NULL COMMENT '记录标题',
+  `arch_title` varchar(60) CHARACTER SET utf8 NOT NULL COMMENT '记录标题',
   `cp_id` int(60) NOT NULL,
-  `arch_content` varchar(2550) NOT NULL,
+  `arch_content` varchar(2550) CHARACTER SET utf8 NOT NULL,
   `update_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `author` varchar(50) CHARACTER SET utf8 NOT NULL COMMENT '作者',
   PRIMARY KEY (`arch_id`),
   KEY `cp_id` (`cp_id`,`update_time`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 COMMENT='cp操作记录表，用于更新信息' AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 COMMENT='cp操作记录表，用于更新信息' AUTO_INCREMENT=3 ;
+
+--
+-- 转存表中的数据 `cp_operation_logs`
+--
+
+INSERT INTO `cp_operation_logs` (`arch_id`, `arch_title`, `cp_id`, `arch_content`, `update_time`, `author`) VALUES
+(2, '更新三国杀', 1, '更新三国杀。。。。内容。。。', '2013-05-24 02:30:54', 'admin');
 
 -- --------------------------------------------------------
 
@@ -275,6 +283,14 @@ INSERT INTO `ops_auth_items` (`name`, `type`, `description`, `bizrule`, `data`) 
 ('CpGameInfoUpdate', 0, NULL, NULL, 'N;'),
 ('CpGameInfoView', 0, NULL, NULL, 'N;'),
 ('CpGameInfoViewing', 1, NULL, NULL, 'N;'),
+('CpOperationLogsAdmin', 0, NULL, NULL, 'N;'),
+('CpOperationLogsAdministrating', 1, NULL, NULL, 'N;'),
+('CpOperationLogsCreate', 0, NULL, NULL, 'N;'),
+('CpOperationLogsDelete', 0, NULL, NULL, 'N;'),
+('CpOperationLogsIndex', 0, NULL, NULL, 'N;'),
+('CpOperationLogsUpdate', 0, NULL, NULL, 'N;'),
+('CpOperationLogsView', 0, NULL, NULL, 'N;'),
+('CpOperationLogsViewing', 1, NULL, NULL, 'N;'),
 ('CpResourceInfoAdmin', 0, NULL, NULL, 'N;'),
 ('CpResourceInfoAdministrating', 1, NULL, NULL, 'N;'),
 ('CpResourceInfoCreate', 0, NULL, NULL, 'N;'),
@@ -433,6 +449,24 @@ INSERT INTO `ops_auth_item_child` (`parent`, `child`) VALUES
 ('查看', 'CpGameInfoView'),
 ('查询编辑操作', 'CpGameInfoView'),
 ('系统管理', 'CpGameInfoView'),
+('CpOperationLogsAdministrating', 'CpOperationLogsAdmin'),
+('查询编辑操作', 'CpOperationLogsAdmin'),
+('系统管理', 'CpOperationLogsAdmin'),
+('CpOperationLogsAdministrating', 'CpOperationLogsCreate'),
+('查询编辑操作', 'CpOperationLogsCreate'),
+('系统管理', 'CpOperationLogsCreate'),
+('CpOperationLogsAdministrating', 'CpOperationLogsDelete'),
+('查询编辑操作', 'CpOperationLogsDelete'),
+('系统管理', 'CpOperationLogsDelete'),
+('CpOperationLogsAdministrating', 'CpOperationLogsIndex'),
+('查询编辑操作', 'CpOperationLogsIndex'),
+('系统管理', 'CpOperationLogsIndex'),
+('CpOperationLogsAdministrating', 'CpOperationLogsUpdate'),
+('查询编辑操作', 'CpOperationLogsUpdate'),
+('系统管理', 'CpOperationLogsUpdate'),
+('CpOperationLogsAdministrating', 'CpOperationLogsView'),
+('查询编辑操作', 'CpOperationLogsView'),
+('系统管理', 'CpOperationLogsView'),
 ('CpResourceInfoAdministrating', 'CpResourceInfoAdmin'),
 ('查看', 'CpResourceInfoAdmin'),
 ('查询编辑操作', 'CpResourceInfoAdmin'),
@@ -583,6 +617,7 @@ INSERT INTO `ops_auth_item_child` (`parent`, `child`) VALUES
 ('商务运营', '查询编辑操作'),
 ('平台开发', '查询编辑操作'),
 ('游戏接入', '查询编辑操作'),
+('管理员', '查询编辑操作'),
 ('管理员', '系统管理');
 
 -- --------------------------------------------------------

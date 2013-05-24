@@ -20,9 +20,9 @@
 	));
 	$this->widget('zii.widgets.CMenu', array(
 			'items'=>array(
-					array('label'=>'日志列表', 'url'=>array('CpGameInfo/index')),
-					array('label'=>'新建日志', 'url'=>array('CpGameInfo/create')),
-					array('label'=>'管理日志列表', 'url'=>array('CpGameInfo/admin')),
+					array('label'=>'日志列表', 'url'=>array('CpOperationLogs/index')),
+					array('label'=>'新建日志', 'url'=>array('CpOperationLogs/create')),
+					array('label'=>'管理日志列表', 'url'=>array('CpOperationLogs/admin')),
 			),
 			'htmlOptions'=>array('class'=>'operations'),
 	));
